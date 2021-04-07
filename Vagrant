@@ -1,0 +1,7 @@
+Vagrant setup and basic commands
+
+config.vm.box - operating system
+config.vm.provider - virtual box
+config.vm.network - How your host your box
+config.vm.synces_folder  How you access files from your computer
+config.vm.provision - what we wnat to setup
