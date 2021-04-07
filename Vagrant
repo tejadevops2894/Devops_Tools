@@ -5,3 +5,14 @@ config.vm.provider - virtual box
 config.vm.network - How your host your box
 config.vm.synces_folder  How you access files from your computer
 config.vm.provision - what we wnat to setup
+
+
+sudo apt update
+sudo apt install git -y
+
+
+IP to DNS Name
+
+A.B.C.D vgdemo.local www.vgdemo.local
+
+NFS - only for Linux or Mac
