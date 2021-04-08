@@ -1,0 +1,49 @@
+Introduction to LinuxBasics
+
+Linux CLI
+Vi Editor
+Package Management
+Service Management
+
+
+Shell Types
+
+Broune Shell (Sh Shell)
+C Shell (csh or tcsh)
+Z Shell (zsh)
+Bourne again Shell (BASH)
+
+ls -a                             #List files and folders
+cd my_dir1                        #change directory
+pwd                               #Present Working Directory
+mkdir new_directory               #Make Directory
+cd new_directory; mkdir www; pwd  #Multiple cmds
+
+
+
+Commands-Directories
+
+mkdir /tmp/asia                   #Make Directory Hirechary       ----------------->            mkdir -p /tmp/asia/india/bangalore
+mkdir /tmp/asia/india
+mkdir /tmp/asia/india/bangalore
+
+rm -r /tmp/my_dir1                #Remove Directory
+
+cp -r my_dir1 /tmp/my_dir1        #Copy Directory
+
+
+
+Commands-Files
+
+touch new_file.txt                #Create a new file (no contents)
+
+cat > new-file.txt                #Add contents to file
+This is somple sample contents
+Ctrl + D
+
+cat new_file.txt                  #View contents of file
+cp new_file.txt sample_file.txt   #Copy File
+mv new_file.txt sample_file.txt   #Move(Rename) File
+rm new_file.txt                   #Remove(Delete) File
+
+
