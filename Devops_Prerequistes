@@ -127,6 +127,9 @@ yum install ansible-2.4.2.0
 
 #Please refer to the yum documentation for queries
 
+Install Oracle Virtual Box with the help of documentation
+
+#for images please refer to osboxes website
 
 
 
