@@ -88,7 +88,44 @@ Wget
 Curl
 cat/etc/*release*
 
+*********************************
 
+PACKAGE MANAGERS
+
+RPM(REDHAT PACKAGE MANAGER)             #rpm package manager will not be installed unless specified because rpm does not install depencies so in order to resolve this we use YUM; yum will install dependencies on its own use repos.d
+
+rpm-i telnet.rpm                        # install telnet package
+sudo rpm -i /telnet-0.17.e17.x86.rpm    #check
+
+rpm-e telnet.rpm                        # remove telnet package
+sudo rpm -e /telnet-0.17.e17.x86.rpm    #check
+
+rpm -q telnet.rpm                      #query package
+rpm -qa                                 # to check what packages are installed on the linux machine
+
+#Please refer to the rpm documentation for queries
+
+
+YUM
+
+sudo yum install ansible -y             # install ansible
+#repos in which all packages are stored # /etc/yum.repos.d
+
+sudo yum repolist
+
+ls /etc/yum.repos.d/
+
+cat /etc/yum.repos.d/centos-base.repo
+
+yum list ansible
+
+yum remove ansible
+
+yum --showduplicates list ansible
+
+yum install ansible-2.4.2.0
+
+#Please refer to the yum documentation for queries
 
 
 
