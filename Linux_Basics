@@ -32,7 +32,6 @@ rm -r /tmp/my_dir1                #Remove Directory
 cp -r my_dir1 /tmp/my_dir1        #Copy Directory
 
 
-
 Commands-Files
 
 touch new_file.txt                #Create a new file (no contents)
@@ -45,5 +44,52 @@ cat new_file.txt                  #View contents of file
 cp new_file.txt sample_file.txt   #Copy File
 mv new_file.txt sample_file.txt   #Move(Rename) File
 rm new_file.txt                   #Remove(Delete) File
+
+Three types of Editors on Linux:
+
+1. Vi #Commonly used
+2. Vim
+3. nano
+
+Shortcut keys
+
+x ---> #to delete a char
+dd --> #to delete entire line
+yy and p --> #to paste entire line
+:wq! ---> #save and quit
+/xyz ----> #find any word inside the editor file
+
+
+USER ACCOUNTS
+
+whoami    #to know the user
+id        #number of uid
+su xyz       #switch user
+ssh xyz@a.b.c.d #switch from to desired user using ip
+sudo ls /root   #on root user has all previlages
+/etc/sudoers
+
+DOWNLOAD FILES
+
+curl -O http://www.google.com
+        OR
+wget http://www.google.com -O teja.txt  #COMMONLY USED
+
+
+CHECK OS VERSION
+
+ls /etc*release*  #list OS data
+cat /etc*release* #Give detail info about OS
+
+
+***********IMPORTANT*************
+
+Wget
+Curl
+cat/etc/*release*
+
+
+
+
 
 
