@@ -3,6 +3,15 @@
 Username: tejadevops2894
 Passwd: Teja@1994
 
+#Jenkins Troubleshooting
+
+1. su - jenkins
+2. vi config.xml
+3. <use security>false</use security>
+4. systemctl restart jenkins
+5. root
+   passwd: teja1994
+
 #Jenkins installation
 
 #Step 1
