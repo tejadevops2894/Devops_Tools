@@ -1,0 +1,43 @@
+#Jenkins installation
+
+#Step 1
+#from the SSH Diable firewall and Selinux
+1. systemctl stop firewalld
+2. systemctl disable firewalld
+# vi /etc/selinux/config (PUTTY CLI)
+# SElinux = disabled (PUTTY CLI)
+
+#Step 2:
+#Go to Jenkins.io from the URL
+jenkins.io
+
+#Step 3:
+#ip addr show (PUTTY CLI) > Get the ip address
+
+#Step 4:
+#from the jenkins home page > Downloads > Centos/Fedora(Download Jenkins 2.277.4 LTS for)
+
+#Step 5:
+yum install jenkins
+
+#Step 6:
+#if other packages are running kill the packages 
+pkill jenkins
+
+#Step 7:
+systemctl start jenkins
+netstat | grep 8080
+netstat -tlp | grep 8080
+netstat -ntlp | grep 8080
+more /etc/passwd
+su - jenkins
+id (jenkins will not be installed)
+vi /etc/passwd
+#last line >>> jenkins:/bin/bash
+su - jenkins
+id
+ls
+more /var/lib/ (from jenkins front end page) >>>>>> password for authentication jenkins
+
+#Always select default plugins
+
